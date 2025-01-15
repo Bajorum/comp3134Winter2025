@@ -1,0 +1,45 @@
+Nmap done: 1 IP address (1 host up) scanned in 4.89 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-15 18:47 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0024s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 20-100 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-15 18:47 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0027s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 80 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-15 18:47 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0027s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 80 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-15 18:47 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.07 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
